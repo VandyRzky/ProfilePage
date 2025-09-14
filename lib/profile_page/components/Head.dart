@@ -13,7 +13,7 @@ class HeadRow extends StatelessWidget{
         ),
         CircleAvatar(
           radius: 75,
-          backgroundImage: AssetImage("assets/images/profile.png"),)
+          backgroundImage: AssetImage("assets/images/profile.jpeg"),)
 
       ],
     );
