@@ -10,17 +10,9 @@ class ProfilePage extends StatelessWidget {
       backgroundColor: Color(0xFFedeff2),
       body: Padding(
         padding: const EdgeInsets.all(10),
-        child: Column(
-          children: [
-            ProfileContainer(),
-
-            // SizedBox(height: 24),
-            // ElevatedButton(
-            //   onPressed: () {},
-            //   child: Text("Edit Profile"),
-            // )
-          ],
-        ),
+        child: SingleChildScrollView(
+          child: ProfileContainer(),
+        )
       ),
     );
   }

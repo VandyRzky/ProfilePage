@@ -11,9 +11,26 @@ class HeadRow extends StatelessWidget{
         Expanded(child:
         HeadIntroduction()
         ),
-        CircleAvatar(
-          radius: 75,
-          backgroundImage: AssetImage("assets/images/profile.jpeg"),)
+        Container(
+          padding: EdgeInsets.all(5), // jarak antara border & gambar
+          decoration: BoxDecoration(
+            color: Color(0xffedeff2),       // background di belakang foto
+            shape: BoxShape.circle,    // bikin lingkaran
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black26,
+                blurRadius: 8,
+                offset: Offset(0, 2),
+              ),
+            ],
+          ),
+          child: CircleAvatar(
+            radius: 75,
+            backgroundImage: AssetImage("assets/images/profile.jpeg"),
+          ),
+        )
+
+
 
       ],
     );
