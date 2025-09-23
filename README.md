@@ -3,4 +3,4 @@
 Nama : Vandy Rizky Septiawan
 NIM : 2309106048
 
-[!alt](/documentation/img.png)
+![alt](/documentation/img.png)
